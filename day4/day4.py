@@ -4,7 +4,7 @@
 import hashlib
 
 # Part 1
-# Solution:
+# Solution: Brute force key + number from 1 to inf with md5.
 def md5_five_zeroes(input=str):
   key = input.splitlines()[0]
   for i in range(9999999999999):
@@ -20,7 +20,7 @@ def md5_five_zeroes(input=str):
 
 
 # Part 2
-# Solution:
+# Solution: Brute force key + number from 1 to inf with md5.
 def md5_six_zeroes(input=str):
   key = input.splitlines()[0]
   for i in range(9999999999999):
